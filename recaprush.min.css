@@ -248,3 +248,17 @@ h2.rr-auto-cast-title,
     font-size:22px;
   }
 }
+.rr-section-divider{
+  text-align:center;
+  font-size:22px;
+  line-height:1;
+  margin:34px 0 22px;
+  white-space:nowrap;
+}
+
+@media (max-width:640px){
+  .rr-section-divider{
+    font-size:20px;
+    margin:28px 0 18px;
+  }
+}
