@@ -222,3 +222,29 @@ h2.rr-auto-cast-title,
     font-size:18px;
   }
 }
+/* RecapRush movie section divider */
+.post-body h2:not(:first-of-type){
+  position:relative;
+  margin-top:66px !important;
+}
+
+.post-body h2:not(:first-of-type)::before{
+  content:"🎬";
+  position:absolute;
+  top:-46px;
+  left:50%;
+  transform:translateX(-50%);
+  font-size:24px;
+  line-height:1;
+}
+
+@media (max-width:640px){
+  .post-body h2:not(:first-of-type){
+    margin-top:58px !important;
+  }
+
+  .post-body h2:not(:first-of-type)::before{
+    top:-40px;
+    font-size:22px;
+  }
+}
