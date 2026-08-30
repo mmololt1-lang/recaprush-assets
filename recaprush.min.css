@@ -127,3 +127,15 @@ h2.rr-auto-cast-title{
     margin:28px 0 12px !important;
   }
 }
+/* Hide floating contact / messenger widget safely */
+.arcontactus-widget,
+.arcontactus-message-button,
+.arcontactus-message,
+.arcontactus-prompt,
+.messangers-block,
+#arcontactus{
+  display:none !important;
+  visibility:hidden !important;
+  opacity:0 !important;
+  pointer-events:none !important;
+}
