@@ -298,3 +298,14 @@ h2.rr-auto-cast-title,
   letter-spacing:8px;
   white-space:nowrap;
 }
+.rr-section-divider{
+  display:block !important;
+  width:100% !important;
+  clear:both !important;
+  text-align:center !important;
+  font-size:26px;
+  line-height:1;
+  margin:30px auto 24px !important;
+  letter-spacing:8px;
+  white-space:nowrap;
+}
