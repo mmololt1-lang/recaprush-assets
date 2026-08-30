@@ -278,3 +278,11 @@ h2.rr-auto-cast-title,
     margin:28px 0 18px;
   }
 }
+.rr-section-divider{
+  text-align:center;
+  font-size:26px;
+  line-height:1;
+  margin:30px 0 24px;
+  letter-spacing:8px;
+  white-space:nowrap;
+}
