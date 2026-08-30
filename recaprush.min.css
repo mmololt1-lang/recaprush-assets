@@ -78,3 +78,29 @@ body,
     font-size: 20px;
   }
 }
+/* Better article paragraph spacing */
+.post-body p,
+.post-body > div,
+.post-body span {
+  line-height: 1.7 !important;
+}
+
+.post-body p {
+  margin: 0 0 18px !important;
+}
+
+.post-body br + br {
+  display: block;
+  content: "";
+  margin-top: 8px;
+}
+
+.post-body h2 {
+  margin-top: 34px !important;
+  margin-bottom: 14px !important;
+}
+
+.post-body h3 {
+  margin-top: 28px !important;
+  margin-bottom: 12px !important;
+}
