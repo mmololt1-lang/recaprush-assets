@@ -181,3 +181,15 @@ h2.rr-auto-cast-title{
     height:58px !important;
   }
 }
+.post-body h2.rr-auto-cast-title,
+h2.rr-auto-cast-title,
+.rr-auto-cast-title{
+  display:block !important;
+  font-family:"Roboto",Arial,Helvetica,sans-serif !important;
+  font-size:26px !important;
+  font-weight:700 !important;
+  line-height:1.3 !important;
+  margin:34px 0 14px !important;
+  padding:0 !important;
+  color:#111 !important;
+}
