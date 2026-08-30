@@ -193,3 +193,32 @@ h2.rr-auto-cast-title,
   padding:0 !important;
   color:#111 !important;
 }
+/* RecapRush section divider */
+.post-body h2:not(:first-of-type){
+  position:relative;
+  margin-top:62px !important;
+}
+
+.post-body h2:not(:first-of-type)::before{
+  content:"•••";
+  position:absolute;
+  top:-42px;
+  left:50%;
+  transform:translateX(-50%);
+  font-size:20px;
+  font-weight:700;
+  letter-spacing:9px;
+  color:#c5c5c5;
+  line-height:1;
+}
+
+@media (max-width:640px){
+  .post-body h2:not(:first-of-type){
+    margin-top:54px !important;
+  }
+
+  .post-body h2:not(:first-of-type)::before{
+    top:-36px;
+    font-size:18px;
+  }
+}
