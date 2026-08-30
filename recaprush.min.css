@@ -309,3 +309,32 @@ h2.rr-auto-cast-title,
   letter-spacing:8px;
   white-space:nowrap;
 }
+/* RecapRush centered movie divider */
+.post-body h2.rr-movie-divider{
+  position:relative !important;
+  padding-top:58px !important;
+}
+
+.post-body h2.rr-movie-divider::before{
+  content:"🎬  🎬  🎬" !important;
+  display:block !important;
+  position:absolute !important;
+  top:18px !important;
+  left:0 !important;
+  width:100% !important;
+  text-align:center !important;
+  font-size:24px !important;
+  line-height:1 !important;
+  white-space:nowrap !important;
+}
+
+@media(max-width:640px){
+  .post-body h2.rr-movie-divider{
+    padding-top:52px !important;
+  }
+
+  .post-body h2.rr-movie-divider::before{
+    top:16px !important;
+    font-size:21px !important;
+  }
+}
