@@ -437,3 +437,29 @@ h2.rr-auto-cast-title,
     font-size:15.5px !important;
   }
 }
+/* TOC header fix */
+.rr-toc-header{
+  display:flex !important;
+  align-items:center !important;
+  justify-content:space-between !important;
+  width:100% !important;
+  gap:12px;
+}
+
+.rr-toc-title{
+  flex:1 1 auto;
+  text-align:left !important;
+  white-space:nowrap;
+}
+
+.rr-toc-toggle{
+  flex:0 0 auto;
+  white-space:nowrap !important;
+  word-break:normal !important;
+}
+
+/* Do not show movie divider around TOC */
+.rr-toc .rr-section-divider,
+.rr-section-divider + .rr-toc{
+  display:none !important;
+}
