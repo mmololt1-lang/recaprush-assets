@@ -347,3 +347,93 @@ h2.rr-auto-cast-title,
   }
   .rr-random-related-title{font-size:15.5px}
 }
+/* RecapRush Random Related Card - Force Style */
+.rr-random-related{
+  display:block !important;
+  margin:32px 0 34px !important;
+  padding:16px !important;
+  border:1px solid #e5e7eb !important;
+  border-radius:12px !important;
+  background:#f8f9fb !important;
+}
+
+.rr-random-related-label{
+  margin:0 0 12px !important;
+  font-size:13px !important;
+  font-weight:700 !important;
+  text-transform:uppercase;
+  letter-spacing:.4px;
+  color:#6b7280 !important;
+}
+
+.rr-random-related-inner{
+  display:flex !important;
+  align-items:center !important;
+  gap:14px !important;
+}
+
+.rr-random-related-thumb{
+  display:block !important;
+  width:120px !important;
+  height:76px !important;
+  flex:0 0 120px !important;
+  overflow:hidden !important;
+  border-radius:9px !important;
+}
+
+.rr-random-related-thumb img{
+  width:120px !important;
+  height:76px !important;
+  object-fit:cover !important;
+  display:block !important;
+  margin:0 !important;
+  border-radius:9px !important;
+}
+
+.rr-random-related-content{
+  min-width:0 !important;
+}
+
+.rr-random-related-title{
+  display:block !important;
+  font-size:17px !important;
+  line-height:1.35 !important;
+  font-weight:700 !important;
+  color:#111827 !important;
+  text-decoration:none !important;
+}
+
+.rr-random-related-title:hover{
+  color:#1677ff !important;
+}
+
+.rr-random-related-cta{
+  margin-top:7px !important;
+  font-size:13px !important;
+  font-weight:600 !important;
+  color:#1677ff !important;
+}
+
+@media(max-width:640px){
+  .rr-random-related{
+    padding:13px !important;
+  }
+
+  .rr-random-related-inner{
+    gap:11px !important;
+  }
+
+  .rr-random-related-thumb,
+  .rr-random-related-thumb img{
+    width:92px !important;
+    height:62px !important;
+  }
+
+  .rr-random-related-thumb{
+    flex-basis:92px !important;
+  }
+
+  .rr-random-related-title{
+    font-size:15.5px !important;
+  }
+}
