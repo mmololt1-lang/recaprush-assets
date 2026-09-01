@@ -463,3 +463,19 @@ h2.rr-auto-cast-title,
 .rr-section-divider + .rr-toc{
   display:none !important;
 }
+.rr-section-divider{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:8px;
+  margin:28px 0;
+}
+
+.rr-section-divider .rr-dot{
+  width:7px;
+  height:7px;
+  border-radius:50%;
+  background:#c7c7c7;
+  opacity:.65;
+  display:block;
+}
