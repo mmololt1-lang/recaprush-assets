@@ -479,3 +479,44 @@ h2.rr-auto-cast-title,
   opacity:.65;
   display:block;
 }
+.rr-inline-movie-grid{
+  display:grid;
+  grid-template-columns:repeat(6,110px);
+  gap:12px;
+  justify-content:start;
+}
+
+.rr-inline-movie-card{
+  width:110px;
+}
+
+.rr-inline-poster{
+  width:110px;
+  height:165px;
+  object-fit:cover;
+}
+
+.rr-inline-movie-title{
+  font-size:12px;
+  line-height:1.3;
+}
+
+.rr-inline-movie-meta{
+  font-size:10px;
+}
+
+@media(max-width:650px){
+  .rr-inline-movie-grid{
+    grid-template-columns:repeat(3,1fr);
+  }
+
+  .rr-inline-movie-card{
+    width:auto;
+  }
+
+  .rr-inline-poster{
+    width:100%;
+    height:auto;
+    aspect-ratio:2/3;
+  }
+}
